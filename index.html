@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Пекарня Mr.Крендель</title>
+
+	<link rel="icon" href="img/ico.png" type="images/png">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__top">
+			<div class="container">
+				<div class="header__contacts">
+					<a class="header__phone" href="tel:380501234567">+38(050)123-4567</a>
+					<a class="header__email" href="#">krendel@ukr.net</a>
+					<a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Оптовым клиентам</a>
+				</div>
+			</div>
+		</div>
+		<div class="header__content">
+			<div class="container">
+				<div class="header__content-inner">
+					<div class="header__logo">
+						<a href="#">
+							<img src="img/logo.png" alt="">
+						</a>
+					</div>
+					<nav class="menu">
+						<ul>
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Продукция</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="slider">
+		<div class="container">
+			<div class="slider__inner">
+				<div class="slider__item">
+					<div class="slider__item-content">
+						<div class="slider__title">
+							Натуральные компоненты
+						</div>
+						<div class="slider__text">
+							В наших рецептах используются только природные ингридиенты от проверенных поставщиков</br>без использования химических добавок.
+						</div>
+						<a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+							Заказать продукцию
+						</a>
+					</div>
+				</div>
+				<div class="slider__item">
+					<div class="slider__item-content">
+						<div class="slider__title">
+							Оригинальная рецептура
+						</div>
+						<div class="slider__text">
+							Мы собрали оригинальные рецепты со всех кухонь мира, которые использовали наши предки не одно десятилетие,</br>и привнесли в них свои свежие идеи.
+						</div>
+						<a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+							Заказать продукцию
+						</a>
+					</div>
+				</div>
+				<div class="slider__item">
+					<div class="slider__item-content">
+						<div class="slider__title">
+							Индивидуальный подход
+						</div>
+						<div class="slider__text">
+							Наша цель - реализация ваших желаний.</br>Если у вас есть творческие идеи выпечки - мы их воплотим в жизнь!
+						</div>
+						<a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+							Заказать продукцию
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="services">
+		<div class="container">
+			<div class="services__top">
+				<div class="services__title-box">
+					<div class="services__title">
+						Наши Продукты
+					</div>
+					<div class="services__text">
+						В ассортименте нашей пекарни более 50 видов выпечки по доступной цене.
+					</div>
+				</div>
+				<div class="services__btn">
+					<a href="#">Показать все продукты</a>
+				</div>
+			</div>
+			<div class="services__items">
+				<div class="services__item">
+					<img src="img/services-1.png" alt="">
+					<div class="services__item-title">
+						Хлеб
+					</div>
+					<div class="services__item-text">
+						Мы выпекаем 15 видов хлеба на любой вкус, семь из которых бездрожжевые, выращенные из собственных заквасок.
+					</div>
+					<div class="services__item-btn">
+						<a class="services__item-link" href="#">Подробнее</a>
+						<a data-fancybox data-src="#modal" href="javascript:;" class="default-btn">
+							Заказать
+						</a>
+					</div>
+				</div>
+				<div class="services__item">
+					<img src="img/services-2.png" alt="">
+					<div class="services__item-title">
+						Сладкая выпечка
+					</div>
+					<div class="services__item-text">
+						Наш пекарь замешивая тесто, собирает в нем все самое лучшее: муку, очищенную воду, ароматные травы, специи, различные злаки, орехи и фрукты, чтобы уже в 8 часов утра вы могли приобрести к завтраку еще теплую и невероятно вкусную выпечку!
+					</div>
+					<div class="services__item-btn">
+						<a class="services__item-link" href="#">Подробнее</a>
+						<a data-fancybox data-src="#modal" href="javascript:;" class="default-btn">
+							Заказать
+						</a>
+					</div>
+				</div>
+				<div class="services__item">
+					<img src="img/services-3.png" alt="">
+					<div class="services__item-title">
+						Крафтовая выпечка
+					</div>
+					<div class="services__item-text">
+						Оригинальные авторские рецепты от нашего шеф-кондитера, воплощённые в оригинальную форму, поразят ваше воображение. А ваши творческие идеи воплощаются в реальность в нашей пекарне. 
+					</div>
+					<div class="services__item-btn">
+						<a class="services__item-link" href="#">Подробнее</a>
+						<a data-fancybox data-src="#modal" href="javascript:;" class="default-btn">
+							Заказать
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about">
+		<div class="container">
+			<div class="about__inner">
+				<div class="about__title">
+					О компании
+				</div>
+				<div class="about__text">
+					Все наши предки выращивали хлеб на полях. Ну а мы продолжая многовековые традиции своих предков занимаемся выпечкой НАСТОЯЩЕГО ХЛЕБА. Хотите стать здоровее - начните с хлеба! Раньше в пищу употребляли в основном нерафинированное зерно. Зерна злаков богаты на витамины, минералы и клетчатку. Весь этот кладезь полезностей находится именно в цельнозерновой муке. Еще одна великая мудрость наших предков - это ферментирование. Хлеб как и хорошее вино должен быть выброженным. В нашем хлебе собраны многовековые традиции наших предков по приготовлению хлебов на заквасках из цельнозерновой муки. Природа создала все для того, что бы мы были здоровыми и счастливыми. 
+				</div>
+				<a href="#" class="about__btn default-btn">
+					Узнать больше
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="form">
+		<div class="container">
+			<div class="form__inner">
+				<div class="form__content">
+					<div class="form__title-box">
+						<div class="form__title">
+							Напишите нам!
+						</div>
+						<div class="form__text">
+							Мы будем рады ответить на ваши вопросы, услышать ваши предложения и реализовать ваши идеи.
+						</div>
+					</div>
+					<div class="form__box">
+						<form>
+							<div class="form__box-inner">
+								<div class="form__box-left">
+									<label>
+										E-mail
+										<input type="text">
+									</label>
+									<label>
+										Контактный телефон
+										<input type="text">
+									</label>
+									<label>
+										Ф.И.О.
+										<input type="text">
+									</label>
+									<label>
+										Тема вопроса
+										<select>
+											<option>Заказ продукции</option>
+											<option>Сотрудничество</option>
+											<option>Новая рецептура</option>
+											<option>Жалоба</option>
+											<option>Прочие вопросы</option>
+										</select>
+									</label>
+								</div>
+								<div class="form__box-right">
+									<label>
+										Сообщение
+										<textarea></textarea>
+									</label>
+									<button class="default-btn" type="submit">Отправить сообщение</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="advantages">
+		<div class="container">
+			<div class="advantages__inner">
+				<div class="advantages-item">
+					<div class="advantages__title">
+						Натуральные ингридиенты
+					</div>
+					<div class="advantages__text">
+						На страже здоровья.<br>
+						Мы за здоровое питание и за натуральные продукты.
+					</div>
+				</div>
+				<div class="advantages-item">
+					<div class="advantages__title">
+						Бесплатаня доставка
+					</div>
+					<div class="advantages__text">
+						При заказе на сумму свыше 500 грн. доставка по Краматорску бесплатаня.
+					</div>
+				</div>
+				<div class="advantages-item">
+					<div class="advantages__title">
+						Готовим с вдохновением
+					</div>
+					<div class="advantages__text">
+						Привлекательный вкус, много "находок", богатый ассортимент, творческий подход, регулярные новые поступления.
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="news">
+		<div class="container">
+			<div class="news__top">
+				<div class="news__title-box">
+					<div class="news__title">
+						Наши Новости
+					</div>
+					<div class="news__text">
+						Акции, новости, события, рецепты, статьи, блоги и многое другое.
+					</div>
+				</div>
+				<div class="news__btn">
+					<a href="#">Показать все новости</a>
+				</div>
+			</div>
+			<div class="news__inner">
+				<div class="news__slider">
+					<div class="news__slider-inner">
+						<div class="news__slider-item">
+							<div class="news__slider-title">
+								Готовим со страстью и водохновением!
+							</div>
+							<div class="news__slider-text">
+								Мы собрали самые лучшие хлебные традиции различных стран Мира, добавили Краматорского колорита, любви и немножко волшебства. Секрет нашей выпечки очень прост: мы не приемлем разрыхлители, добавки и консерванты, а используем исключительно натуральные ингредиенты. В каждой нашей буханке вдохновение, неповторимость, забота, любовь, нежность и тепло наших рук. Хлеб и любовь не приедаются! Жить вкусно и полезно легко, когда рядом есть Мы!
+							</div>
+							<div class="news__slider-author">
+								Команда крафт-пекарни Mr.Крендель и Михаил Иванов
+							</div>
+						</div>
+						<div class="news__slider-item">
+							<div class="news__slider-title">
+								Готовим со страстью и водохновением!
+							</div>
+							<div class="news__slider-text">
+								Мы собрали самые лучшие хлебные традиции различных стран Мира, добавили Краматорского колорита, любви и немножко волшебства. Секрет нашей выпечки очень прост: мы не приемлем разрыхлители, добавки и консерванты, а используем исключительно натуральные ингредиенты. В каждой нашей буханке вдохновение, неповторимость, забота, любовь, нежность и тепло наших рук. Хлеб и любовь не приедаются! Жить вкусно и полезно легко, когда рядом есть Мы!
+							</div>
+							<div class="news__slider-author">
+								Команда крафт-пекарни Mr.Крендель и Михаил Иванов
+							</div>
+						</div>
+						<div class="news__slider-item">
+							<div class="news__slider-title">
+								Готовим со страстью и водохновением!
+							</div>
+							<div class="news__slider-text">
+								Мы собрали самые лучшие хлебные традиции различных стран Мира, добавили Краматорского колорита, любви и немножко волшебства. Секрет нашей выпечки очень прост: мы не приемлем разрыхлители, добавки и консерванты, а используем исключительно натуральные ингредиенты. В каждой нашей буханке вдохновение, неповторимость, забота, любовь, нежность и тепло наших рук. Хлеб и любовь не приедаются! Жить вкусно и полезно легко, когда рядом есть Мы!
+							</div>
+							<div class="news__slider-author">
+								Команда крафт-пекарни Mr.Крендель и Михаил Иванов
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="news__blog">
+					<div class="news__images">
+						<img src="img/news-1.jpeg" alt="">
+						<div class="news__date">01.03</div>
+					</div>
+					<div class="news__blog-title">
+						Краффин
+					</div>
+					<div class="news__blog-text">
+						Считается, что первый краффин был создан кулинаром Кейт Рейд из кондитерской Lune Croissanterie в Мельбурне, Австралия, в 2013 году.За короткое время краффин набрал огромнейшую популярность в мире.
+					</div>
+				</a>
+				<a href="#" class="news__blog">
+					<div class="news__images">
+						<img src="img/news-2.jpg" alt="">
+						<div class="news__date">10.03</div>
+					</div>
+					<div class="news__blog-title">
+						Михаил Иванов
+					</div>
+					<div class="news__blog-text">
+						Привет! Давайте знакомиться? Кто Я? Я - идейный генератор и вдохновитель пекарни Mr.Крендель, а по простому - технолог и руководитель этого проекта. Выбор моей профессии был случайным.
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer__content">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__info">
+						<div class="footer__title">
+							Крафт-пекарня Mr.Крендель
+						</div>
+						<div class="footer__text">
+							В ассортименте нашей пекарни более 50 видов выпечки по доступной цене.
+						</div>
+						<a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Оптовым клиентам</a>
+						<ul class="footer__list">
+							<li><a class="footer_phone" href="tel:380501234567">+38(050)123-4567</a></li>
+							<li><a href="#">krendel@ukr.net</a></li>
+							<li><a class="footer__adress" href="#">г. Краматорск, ул. Школьная, 2</a></li>	
+						</ul>
+					</div>
+					<div class="footer__map">
+						<iframe width="630px" height="250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10253.589217681902!2d37.53226084060451!3d48.72578896839388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40df97bef43f7d21%3A0x33a604f6a71ad132!2z0LLRg9C70LjRhtGPINCo0LrRltC70YzQvdCwLCAyLCDQmtGA0LDQvNCw0YLQvtGA0YHRjNC6LCDQlNC-0L3QtdGG0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA4NDMwMA!5e1!3m2!1sru!2sua!4v1584265744115!5m2!1sru!2sua" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__copy">
+			<div class="container">
+				<div class="copy__text">
+					© 2017 Template by Anastasia Shaposhnyk. Все права защищены.
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div id="modal">
+		<form>
+			<input type="text" placeholder="Ваше имя">
+			<input type="text" placeholder="Ваш телефон">
+			<input type="submit" value="Отправить">
+		</form>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
